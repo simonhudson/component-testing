@@ -67,8 +67,8 @@ module.exports = {
   simianRepositoryId: null,
 
   // - - - - MOCHA  - - - -
-  mocha: false,
-  // 'path: './',
+  mocha: true,
+  path: './',
   mochaTimeout: 60000,
   mochaReporter: 'spec',
   mochaSlow: 10000,
